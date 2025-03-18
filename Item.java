@@ -17,11 +17,6 @@ public class Item implements ItemInterface{
         description = itemDescription;
     }
     
-    public Item (){
-        name = "Longbow";
-        description = "A bow that's long, duh";
-    }
-    
     public String getName (){
         return name;
     }

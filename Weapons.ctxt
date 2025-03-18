@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Weapons
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Weapons\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=name\ description\ amountOfDamage\ typeOfWeapon
-comment1.target=Weapons(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
-numComments=2
