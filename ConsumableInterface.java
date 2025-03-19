@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public interface ConsumablesInterface
+public interface ConsumableInterface
 {
     /**
      * An example of a method header - replace this comment with your own

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=HealingPotion
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HealingPotion\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ description\ amountOf\ magicVal\ healingFactor
+comment1.target=HealingPotion(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=boolean\ consume()
+comment3.params=healingFactor
+comment3.target=int\ getHealing(int)
+comment4.params=damageFactor
+comment4.target=int\ getDamage(int)
+comment5.params=
+comment5.target=boolean\ throwPotion()
+numComments=6
