@@ -14,4 +14,16 @@ public abstract class Defense extends Item implements DefenseCommands {
         this.defenseValue = defenseValue;
         this.durability = durability;
     }
+    
+    public boolean blocked() {
+        if (durability > 0) {
+            durability--;
+            return true;
+        }
+        return false;
+    }
+
+    public void repair(int amount) {
+        this.durability += amount;
+    }
 }

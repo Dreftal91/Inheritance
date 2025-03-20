@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class RangedW extends Weapon implements WeaponInterface
+public class RangedW extends Weapon
 {
     int Range;
     public RangedW(String name, String description, int amountOfDamage, String typeOfWeapon, int amountOfDurability, int Range){

@@ -8,7 +8,7 @@
 public abstract class Consumable extends Item implements ConsumableInterface
 {
     int amountOf;
-    public Consumable (String name, String description, int amountOf){
+    public Consumable (int amountOf){
         super(name, description);
         this.amountOf = amountOf;
     }

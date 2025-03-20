@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class MagicW  extends Weapon implements WeaponInterface
+public class MagicW  extends Weapon
 {
     int manaCost;
     public MagicW(String name, String description, int amountOfDamage, String typeOfWeapon, int amountOfDurability, int amountOfMana){

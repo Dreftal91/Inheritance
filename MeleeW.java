@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class MeleeW extends Weapon implements WeaponInterface
+public class MeleeW extends Weapon
 {
     int attackReach;
     public MeleeW(String name, String description, int amountOfDamage, String typeOfWeapon, int amountOfDurability, int reachOfAttack){
