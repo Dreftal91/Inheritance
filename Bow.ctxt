@@ -1,12 +1,8 @@
 #BlueJ class context
-comment0.target=RangedW
+comment0.target=Bow
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ RangedW\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=name\ description\ amountOfDamage\ typeOfWeapon\ amountOfDurability\ Range
-comment1.target=RangedW(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int)
+comment1.target=Bow(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int)
 comment2.params=
-comment2.target=RangedW()
-comment3.params=
-comment3.target=boolean\ parry()
-comment4.params=
-comment4.target=int\ attack()
-numComments=5
+comment2.target=Bow()
+numComments=3

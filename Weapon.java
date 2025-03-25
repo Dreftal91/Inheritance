@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Weapon extends Item implements WeaponInterface
+public class Weapon extends Item implements WeaponInterface
 {
     int damage;
     String type;
@@ -22,5 +22,15 @@ public abstract class Weapon extends Item implements WeaponInterface
         damage = 25;
         type = "Melee";
         durability = 50;
+    }
+    
+    public boolean parry(){
+        int pChance = (int)(Math.random() * 10 + 1);
+        return (pChance > 5);
+    }
+    
+    public int attack(){
+        System.out.println("Arrow Attack!");
+        return damage;
     }
 }
