@@ -14,6 +14,5 @@ public class Soup extends Food
 
     public Soup(){
         super("Basic Soup", "Mundane, ordinary, and everything plain", 17, 56, ingredients);
-        
     }
 }
