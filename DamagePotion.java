@@ -12,4 +12,14 @@ public class DamagePotion extends Potion
         super(name, description, amountOf, magicVal);
         this.damageFactor = damageFactor;
     }
+
+    public int splash() {
+        if (consume()) {
+            System.out.println("You splash (minecraft?) the " + getName() + "!");
+            return magicVal * damageFactor / 2;
+        } else {
+            System.out.println("You have no more potions to throw!");
+            return 0;
+        }
+    }
 }

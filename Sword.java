@@ -17,4 +17,14 @@ public class Sword extends Weapon
         super("Claymore", "Your average Scottish sword.", 30, "Melee", 300);
         this.attackReach = 3;
     }
+
+    public int punctureAttack() {
+        System.out.println("You perform a puncture attack with your " + getName() + "!");
+        int critP = (int)(Math.random() * 10);
+        if (critP > 7) {
+            System.out.println("Critical hit!");
+            return damage * 2;
+        }
+        return damage;
+    }
 }

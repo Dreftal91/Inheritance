@@ -5,4 +5,6 @@ comment1.params=name\ description\ amountOfDamage\ typeOfWeapon\ amountOfDurabil
 comment1.target=Staff(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int)
 comment2.params=
 comment2.target=Staff()
-numComments=3
+comment3.params=manaAvailable
+comment3.target=int\ castSpell(int)
+numComments=4

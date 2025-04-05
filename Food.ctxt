@@ -2,4 +2,6 @@
 comment0.target=Food
 comment1.params=name\ description\ amountOf\ valueOfNutrition\ ingredients
 comment1.target=Food(java.lang.String,\ java.lang.String,\ int,\ int,\ java.lang.String[])
-numComments=2
+comment2.params=
+comment2.target=java.lang.String[]\ getIngredients()
+numComments=3

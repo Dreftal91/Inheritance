@@ -12,4 +12,15 @@ public class HealingPotion extends Potion
         super(name, description, amountOf, magicVal);
         this.healingFactor = healingFactor;
     }
+
+    public int sip() {
+        if (amountOf > 0) {
+            amountOf--;
+            System.out.println("You take a small sip of the " + getName() + ".");
+            return healingFactor / 3;
+        } else {
+            System.out.println("The potion is empty!");
+            return 0;
+        }
+    }
 }

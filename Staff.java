@@ -12,9 +12,19 @@ public class Staff  extends Weapon
         super(name, description, amountOfDamage, typeOfWeapon, amountOfDurability);
         manaCost = amountOfMana;
     }
-    
+
     public Staff(){
         super("Fire Staff", "A piece of wood with magical properties, somehow", 450, "Magic", 350);
         manaCost = 250;
+    }
+
+    public int castSpell(int manaAvailable) {
+        if (manaAvailable >= manaCost) {
+            System.out.println("You cast a silly spell with your " + getName() + "!");
+            return damage * 2;
+        } else {
+            System.out.println("Not enough mana to cast a spell, silly!");
+            return 0;
+        }
     }
 }

@@ -13,4 +13,8 @@ class Armor extends Defense{
     public Armor() {
         super("Helmet", "Hat, but better", 30, 300);
     }
+    
+    public void polish() {
+        System.out.println("You polished your " + getName() + ". It looks better I guess");
+    }
 }

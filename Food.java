@@ -10,10 +10,14 @@ import java.util.List;
 public class Food extends Consumable
 {
     int nutritionVal;
-    static String[] ingredients;
-    public Food (String name, String description, int amountOf, int valueOfNutrition, String ingredients[]){
+    String[] ingredients;
+    public Food (String name, String description, int amountOf, int valueOfNutrition, String[] ingredients){
         super(name, description, amountOf);
         nutritionVal = valueOfNutrition;
         this.ingredients = ingredients;
+    }
+    
+    public String[] getIngredients() {
+        return ingredients;
     }
 }

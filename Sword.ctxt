@@ -5,4 +5,6 @@ comment1.params=name\ description\ amountOfDamage\ typeOfWeapon\ amountOfDurabil
 comment1.target=Sword(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int)
 comment2.params=
 comment2.target=Sword()
-numComments=3
+comment3.params=
+comment3.target=int\ punctureAttack()
+numComments=4
