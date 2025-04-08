@@ -5,4 +5,6 @@ comment1.params=name\ description\ amountOf\ valueOfNutrition\ ingredients
 comment1.target=Salads(java.lang.String,\ java.lang.String,\ int,\ int,\ java.lang.String[])
 comment2.params=
 comment2.target=Salads()
-numComments=3
+comment3.params=
+comment3.target=void\ toss()
+numComments=4

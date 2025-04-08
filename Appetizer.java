@@ -12,7 +12,7 @@ public class Appetizer extends Food
     }
 
     public Appetizer() {
-        this("Basic Breadsticks", "Kinda moldy bread", 82, 32, new String[]{"flour", "yeast", "salt", "olive oil"});
+        super("Basic Breadsticks", "Kinda moldy bread", 82, 32, new String[]{"flour", "yeast", "salt", "olive oil"});
     }
 
     public void arrange() {
